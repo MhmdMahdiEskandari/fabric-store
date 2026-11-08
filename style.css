@@ -105,3 +105,19 @@ blockquote{margin:0;padding:14px;background:var(--hd);border-radius:10px 40px 10
  .hero .arrow{top:26%;width:34px;height:34px;font-size:20px}
  .hero .dots{bottom:14px}.hero .dots button{background:#0003}.hero .dots .on{background:var(--s)}
 }
+
+/* v4: mobile hero – compact text over the image, like the reference */
+@media(max-width:849px){
+ .hero{margin-top:18px;border-radius:10px}
+ .hero .slide{min-height:210px;padding:10px 4%;align-items:center;justify-content:flex-end;background-size:cover;background-position:30% center}
+ .hero .slide>div{width:46%;max-width:46%;text-align:center}
+ .hero .slide small{font-size:7px;letter-spacing:1px;color:#666}
+ .hero .slide h1,.hero .slide h2{font-size:19px;line-height:1.35;margin:2px 0}
+ .hero .slide p{font-size:9px;line-height:1.7;margin:3px 0 0;color:#444}
+ .hero .btns{justify-content:center;margin-top:6px}
+ .hero .btns .open-popup{display:none}
+ .hero .btn{padding:3px 16px;font-size:10px;margin-top:6px}
+ .hero .arrow{display:none}
+ .hero .dots{bottom:8px}.hero .dots button{width:7px;height:7px;background:#fff9}.hero .dots .on{background:var(--s)}
+}
+@media(max-width:380px){.hero .slide h1,.hero .slide h2{font-size:17px}.hero .slide p{display:none}}
