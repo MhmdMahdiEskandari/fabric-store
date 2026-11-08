@@ -104,7 +104,8 @@ blockquote{margin:0;padding:14px;background:var(--hd);border-radius:10px 40px 10
  .hero .btn{padding:6px 20px;font-size:14px;margin-top:6px}
  .hero .arrow{top:26%;width:34px;height:34px;font-size:20px}
  .hero .dots{bottom:14px}.hero .dots button{background:#0003}.hero .dots .on{background:var(--s)}
- .logo{font-size:15px;}
+ .logo{font-size:14px;}
+ .mark{display:grid;place-items:center;width:35px;height:35px;font-size:24px;}
 }
 
 /* v4: mobile hero – compact text over the image, like the reference */
