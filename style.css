@@ -91,3 +91,17 @@ blockquote{margin:0;padding:14px;background:var(--hd);border-radius:10px 40px 10
 .cat .cbtn{display:block;margin-top:8px;border:1px solid var(--p);color:#3d9f4c;border-radius:10px;padding:2px 4px;font-size:11px;background:none;aspect-ratio:auto}
 .cat:hover .cbtn{background:var(--p);color:#fff}
 @media(max-width:849px){.cats{grid-template-columns:repeat(4,1fr)}.slide{min-height:300px;padding:20px 6%;justify-content:center}.slide h1,.slide h2{font-size:26px}.hdr{grid-template-columns:auto 1fr auto}.search{display:none}}
+
+/* v3: mobile hero – image on top, text on a clean panel below */
+@media(max-width:849px){
+ .hero .slide{min-height:430px;padding:0 18px 44px;align-items:flex-end;justify-content:center;background-size:auto 52%;background-position:center top;background-repeat:no-repeat}
+ .hero .s1{background-color:#fdf3e6}.hero .s2{background-color:#eef4ea}.hero .s3{background-color:#fdeee6}
+ .hero .slide>div{max-width:100%;width:100%;text-align:center}
+ .hero .slide small{display:block;font-size:11px;letter-spacing:1px}
+ .hero .slide h1,.hero .slide h2{font-size:23px;margin:2px 0}
+ .hero .slide p{font-size:13px;line-height:1.7;margin:4px 0 0;color:#444}
+ .hero .btns{justify-content:center;gap:8px;margin-top:8px}
+ .hero .btn{padding:6px 20px;font-size:14px;margin-top:6px}
+ .hero .arrow{top:26%;width:34px;height:34px;font-size:20px}
+ .hero .dots{bottom:14px}.hero .dots button{background:#0003}.hero .dots .on{background:var(--s)}
+}
